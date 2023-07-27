@@ -18,7 +18,7 @@ let total = 0;
 while (encerrar === 'não') {
   voto = 'não';
   while (voto === 'não') {
-    const votos = parseInt(prompt('Digite sua intenção de voto \nCandidato_X 889 \nCandidato_Y 847 \nCandidato_Z 515 \nBranco 0 '), 10);
+    const votos = parseInt(prompt('Digite sua intenção de voto \nCandidato_X 889 \nCandidato_Y 847 \nCandidato_Z 515 \nBranco 0 '));
     voto = prompt('Deseja confirmar seu voto? ');
 
     if (votos === candidatos.Candidato_X) {
