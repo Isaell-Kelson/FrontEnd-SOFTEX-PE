@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    min-height: 100vh;
+}
+
+
+.form-geral {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-geral label {
+    font-weight: bold;
+}
+
+.label-name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #040000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.label-salario {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: #050000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.label-idade {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: #060000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.label-diploma {
+    font-size: 15px;
+    color: #070000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+.container-btn {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 40%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #1e90ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+
+
+}
+
+
+#dados-inseridos-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#dados-inseridos-container div {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    max-width: 100%;
+    white-space: nowrap;
+}

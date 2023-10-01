@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cadastro</title>
+  </head>
+
+  <body>
+    <form class="form-geral">
+      <div class="label-name">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required />
+      </div>
+
+      <div class="label-salario">
+        <label for="salario">Salário:</label>
+        <input
+          type="text"
+          id="salario"
+          placeholder="Digite seu salário"
+          required
+        />
+      </div>
+
+      <div class="label-idade">
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade" placeholder="Sua idade" required />
+      </div>
+
+      <div class="label-diploma">
+        <fieldset>
+          <legend>Possui diploma?</legend>
+          <label
+            ><input type="radio" name="radio" value="sim" required />Sim</label
+          >
+          <label
+            ><input type="radio" name="radio" value="não" required />Não</label
+          >
+        </fieldset>
+      </div>
+
+      <div class="container-btn">
+        <button class="btn" id="btnSalvar" type="submit">Salvar</button>
+        <button class="btn" id="btnLimpar" type="button">
+          Limpar Pesquisas
+        </button>
+      </div>
+    </form>
+    <div id="dados-inseridos-container"></div>
+    <script src="./manipulacao-dados/script.js"></script>
+  </body>
+</html>
